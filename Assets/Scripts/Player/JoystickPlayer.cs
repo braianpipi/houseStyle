@@ -103,11 +103,10 @@ public class JoystickPlayer : MonoBehaviour
         else
         {
             playerCol.enabled = false;
-            rb.isKinematic = true;
             rb.linearVelocity = Vector3.zero; // Stop any ongoing movement
-            //playerCol.enabled = false;
-            //rb.velocity = Vector3.zero; //
-            //rb.isKinematic = true; 
+            rb.isKinematic = true;
+
+
 
         }
     }
