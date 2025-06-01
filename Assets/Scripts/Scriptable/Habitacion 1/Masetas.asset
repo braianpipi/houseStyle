@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a47908d4072d2441b5748503344dce8, type: 3}
+  m_Name: Masetas
+  m_EditorClassIdentifier: 
+  objectName: Macetas
+  customMaterialsToEdit:
+  - {fileID: 2100000, guid: 007d9adc4be5d494dbc534fedc672c40, type: 2}
+  isTextured: 1
+  texturedMaterial: {fileID: 2100000, guid: 007d9adc4be5d494dbc534fedc672c40, type: 2}
+  texturedElements:
+  - mainTexture: {fileID: 2800000, guid: 82f506f38dd51b14988d918088a34085, type: 3}
+    normalMap: {fileID: 2800000, guid: 04f236486c3e60e48a26e689650ebb9f, type: 3}
+  - mainTexture: {fileID: 2800000, guid: df5855ebeb934c84f8b073e36c879f78, type: 3}
+    normalMap: {fileID: 2800000, guid: 7bcfc2f85d5f34d49aadf252b8ab40a1, type: 3}
+  defaultTiling: {x: 1, y: 1}
