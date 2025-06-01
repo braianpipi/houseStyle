@@ -1,6 +1,19 @@
 using UnityEngine;
 using System.Collections.Generic;
 
+public enum TipoObjeto
+{
+    Piso,
+    Pared,
+    Muebles,
+    Alfombra,
+    Vidrios,
+    Sillon,
+    Puerta,
+    Maceta,
+    Otro
+}
+
 public class ObjetoInteractuable : MonoBehaviour
 {
     [Header("Scriptable Object")]
@@ -10,6 +23,10 @@ public class ObjetoInteractuable : MonoBehaviour
     [HideInInspector] public Material[] currentMaterials;
     [HideInInspector] public List<Material> editableMaterials = new List<Material>();
     private int currentTextureIndex = 0;
+
+    [Header("Configuración")]
+    public TipoObjeto tipoDeObjeto = TipoObjeto.Otro;
+
 
     void Start()
     {

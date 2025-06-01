@@ -14,8 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectName: Piso Living
   customMaterialsToEdit:
-  - {fileID: 2100000, guid: 942eadbeed18c7a4c8440c139367b61e, type: 2}
-  isTextured: 0
-  texturedMaterial: {fileID: 0}
-  texturedElements: []
+  - {fileID: 2100000, guid: 72eed9214320c6f49a43cf5bb40d97f7, type: 2}
+  isTextured: 1
+  texturedMaterial: {fileID: 2100000, guid: 72eed9214320c6f49a43cf5bb40d97f7, type: 2}
+  texturedElements:
+  - mainTexture: {fileID: 2800000, guid: 01e75fac537f199469b905e8b40bbc1d, type: 3}
+    normalMap: {fileID: 2800000, guid: 4bbe556c24d552645859b8c157b5eaf0, type: 3}
+  - mainTexture: {fileID: 2800000, guid: d3a4340e4381a7a4abbec1036d8b59fa, type: 3}
+    normalMap: {fileID: 2800000, guid: 5a46c8c753db10f44b03c585a92b77c3, type: 3}
+  - mainTexture: {fileID: 2800000, guid: 60098c39104cdda4296f7a228ee93537, type: 3}
+    normalMap: {fileID: 2800000, guid: 5a46c8c753db10f44b03c585a92b77c3, type: 3}
   defaultTiling: {x: 1, y: 1}

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a47908d4072d2441b5748503344dce8, type: 3}
+  m_Name: ParedL
+  m_EditorClassIdentifier: 
+  objectName: Pared LIving
+  customMaterialsToEdit:
+  - {fileID: 2100000, guid: faee271dee920f545b225fd4e6da9e67, type: 2}
+  isTextured: 1
+  texturedMaterial: {fileID: 2100000, guid: faee271dee920f545b225fd4e6da9e67, type: 2}
+  texturedElements: []
+  defaultTiling: {x: 1, y: 1}

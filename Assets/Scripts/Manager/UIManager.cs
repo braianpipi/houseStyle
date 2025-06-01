@@ -143,7 +143,7 @@ public class UIManager : MonoBehaviour
 
     public void HideInteractionCanvas()
     {
-        interactionCanvas.transform.SetParent(null);
+        interactionCanvas.transform.SetParent(null);//
         interactionCanvas.gameObject.SetActive(false);
         isUIOpen = false;
         objectNameText.text = "";
@@ -171,11 +171,17 @@ public class UIManager : MonoBehaviour
             RawImage image = buttonGO.GetComponentInChildren<RawImage>();
             image.texture = currentObject.currentObjectSO.texturedElements[i].mainTexture;
 
+            //buttonGO.GetComponent<Button>().onClick.AddListener(() =>
+            //{
+            //    currentObject.SetTextureByIndex(index);
+            //    SoundManager.instance.PlaySound(SoundType.BUTTON_CLICK, 2.0f);
+            //});
             buttonGO.GetComponent<Button>().onClick.AddListener(() =>
             {
-                currentObject.SetTextureByIndex(index);
+                SetTextureToGroup(index); // Aplica a todos los objetos del mismo tipo
                 SoundManager.instance.PlaySound(SoundType.BUTTON_CLICK, 2.0f);
             });
+
         }
     }
 
@@ -189,7 +195,10 @@ public class UIManager : MonoBehaviour
 
         Color newColor = new Color(rSlider.value, gSlider.value, bSlider.value);
 
-        currentObject.SetColor(newColor); // Let the object apply the color
+        //currentObject.SetColor(newColor); // Let the object apply the color ------------------------------------
+
+        SetColorToGroup(newColor); // Aplica a todos los objetos del mismo tipo
+
 
         // Update RGB text values (0-255)
         rValueText.text = Mathf.RoundToInt(newColor.r * 255).ToString();
@@ -225,5 +234,39 @@ public class UIManager : MonoBehaviour
         jp.ToggleMovement(isOn);
         joystickPanel.SetActive(isOn);
     }
+
+    public void SetColorToGroup(Color color)
+    {
+        if (currentObject == null) return;
+
+        TipoObjeto tipo = currentObject.tipoDeObjeto;
+        ObjetoInteractuable[] todos = Object.FindObjectsByType<ObjetoInteractuable>(FindObjectsSortMode.None);
+
+
+        foreach (var obj in todos)
+        {
+            if (obj.tipoDeObjeto == tipo)
+            {
+                obj.SetColor(color);
+            }
+        }
+    }
+    public void SetTextureToGroup(int index)
+    {
+        if (currentObject == null) return;
+
+        TipoObjeto tipo = currentObject.tipoDeObjeto;
+        ObjetoInteractuable[] todos = Object.FindObjectsByType<ObjetoInteractuable>(FindObjectsSortMode.None);
+
+
+        foreach (var obj in todos)
+        {
+            if (obj.tipoDeObjeto == tipo)
+            {
+                obj.SetTextureByIndex(index);
+            }
+        }
+    }
+
 
 }
