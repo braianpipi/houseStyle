@@ -7,7 +7,10 @@ public enum SoundType
     BUTTON_CLICK,
     BUTTON_CLOSE,
     OBJECT_INSPECT,
-    BUTTON_HOVER
+    BUTTON_HOVER,
+    BUTTON_PLAY,
+    BUTTON_PAUSA,
+    MUSICADEFONDO
 
 }
 
@@ -68,8 +71,23 @@ public class SoundManager : MonoBehaviour
 
 
 
+    public void PlayBackgroundMusic(float volume = 0.05f)
+    {
+        if (musicList == null || musicList.Length == 0) return;
 
-
+        musicSource.clip = musicList[0];
+        musicSource.volume = volume;
+        musicSource.loop = true;
+        musicSource.Play();
+    }
+    public void PlayButtonStartSound()
+    {
+        PlaySound(SoundType.BUTTON_PLAY);
+    }
+    public void PlayButtonPausetSound()
+    {
+        PlaySound(SoundType.BUTTON_PAUSA);
+    }
 
 
 #if UNITY_EDITOR
