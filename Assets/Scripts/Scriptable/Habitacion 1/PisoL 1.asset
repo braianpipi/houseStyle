@@ -24,4 +24,12 @@ MonoBehaviour:
     normalMap: {fileID: 2800000, guid: 5a46c8c753db10f44b03c585a92b77c3, type: 3}
   - mainTexture: {fileID: 2800000, guid: 60098c39104cdda4296f7a228ee93537, type: 3}
     normalMap: {fileID: 2800000, guid: 5a46c8c753db10f44b03c585a92b77c3, type: 3}
+  - mainTexture: {fileID: 2800000, guid: bbd067c1afb66ff44aee3b984f49582d, type: 3}
+    normalMap: {fileID: 2800000, guid: 145f9e8d06367e543bdc215660a4414a, type: 3}
+  - mainTexture: {fileID: 2800000, guid: b3a997a722ed4ec4d8212ad9f2381dbc, type: 3}
+    normalMap: {fileID: 2800000, guid: 1a76a70c3f1a8b948a284a90dce98c55, type: 3}
+  - mainTexture: {fileID: 2800000, guid: c8ecac4effcc52345be579ba0a0e2de0, type: 3}
+    normalMap: {fileID: 2800000, guid: c595311d10c6286458cf6d91ab46b4e1, type: 3}
+  - mainTexture: {fileID: 2800000, guid: 24e5857cbf19d1148b57b7ca45a0d918, type: 3}
+    normalMap: {fileID: 2800000, guid: 9f28cf79cb0917b4a92f6f2fb2d0dbd4, type: 3}
   defaultTiling: {x: 1, y: 1}

@@ -12,9 +12,29 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a47908d4072d2441b5748503344dce8, type: 3}
   m_Name: Sillon
   m_EditorClassIdentifier: 
-  objectName: 
+  objectName: Sillon
   customMaterialsToEdit: []
-  isTextured: 0
-  texturedMaterial: {fileID: 0}
-  texturedElements: []
+  isTextured: 1
+  texturedMaterial: {fileID: 2100000, guid: c68fbcad13b27ea4199140e00fcd6779, type: 2}
+  texturedElements:
+  - mainTexture: {fileID: 2800000, guid: 2f6061a15bf4e4e47b3cf5888a768e7a, type: 3}
+    normalMap: {fileID: 2800000, guid: 509f445096b60f6418dda5388a5281ef, type: 3}
+  - mainTexture: {fileID: 2800000, guid: ab677bf6e415a434dbba0d65103b836a, type: 3}
+    normalMap: {fileID: 2800000, guid: f5c61af0b63658e4e862e9a16f04a8eb, type: 3}
+  - mainTexture: {fileID: 2800000, guid: 93d0f0e92691ea649b409f1d3fd4eb2c, type: 3}
+    normalMap: {fileID: 2800000, guid: 104358f95410f2d46aca7368c134199d, type: 3}
+  - mainTexture: {fileID: 2800000, guid: bcb9cca11e38f1a408090ebb7fe1d0ee, type: 3}
+    normalMap: {fileID: 2800000, guid: 1201660d06b97dd499f0e591cb97174e, type: 3}
+  - mainTexture: {fileID: 2800000, guid: 8373e759e250fb8458b4f421391eeddd, type: 3}
+    normalMap: {fileID: 2800000, guid: 8c3a4efebfb069c4d980a480a21b60a1, type: 3}
+  - mainTexture: {fileID: 2800000, guid: a9f62f6e0d02f5942a326a35fcb64cd7, type: 3}
+    normalMap: {fileID: 2800000, guid: 4d2e1156cb70af6439dec121c4c582b9, type: 3}
+  - mainTexture: {fileID: 2800000, guid: a9f62f6e0d02f5942a326a35fcb64cd7, type: 3}
+    normalMap: {fileID: 2800000, guid: 4d2e1156cb70af6439dec121c4c582b9, type: 3}
+  - mainTexture: {fileID: 2800000, guid: 6e11cd9ad37b79649bc9c7ba105a547f, type: 3}
+    normalMap: {fileID: 2800000, guid: 104f0c2c02962c14a856db6b8d47ddb6, type: 3}
+  - mainTexture: {fileID: 2800000, guid: df5855ebeb934c84f8b073e36c879f78, type: 3}
+    normalMap: {fileID: 2800000, guid: 7bcfc2f85d5f34d49aadf252b8ab40a1, type: 3}
+  - mainTexture: {fileID: 2800000, guid: df5855ebeb934c84f8b073e36c879f78, type: 3}
+    normalMap: {fileID: 2800000, guid: 7bcfc2f85d5f34d49aadf252b8ab40a1, type: 3}
   defaultTiling: {x: 1, y: 1}

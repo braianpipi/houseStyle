@@ -11,6 +11,7 @@ public enum TipoObjeto
     Sillon,
     Puerta,
     Maceta,
+    Techo,
     Otro
 }
 
