@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a47908d4072d2441b5748503344dce8, type: 3}
   m_Name: Techo H
   m_EditorClassIdentifier: 
-  objectName: 
+  objectName: Techo Habitacion
   customMaterialsToEdit: []
   isTextured: 0
   texturedMaterial: {fileID: 0}

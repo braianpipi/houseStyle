@@ -28,5 +28,5 @@ MonoBehaviour:
   - mainTexture: {fileID: 2800000, guid: 9c34fd2fe7109cf48b8c6cc9261f4ecf, type: 3}
     normalMap: {fileID: 2800000, guid: 65dbb2e18f9a13c4faa0e456ac087199, type: 3}
   - mainTexture: {fileID: 2800000, guid: 85ac55597b97403c82fc6601a93cf241, type: 3}
-    normalMap: {fileID: 2800000, guid: 65dbb2e18f9a13c4faa0e456ac087199, type: 3}
+    normalMap: {fileID: 2800000, guid: 3d727a67f36773745a8c7e1d4aa6ebab, type: 3}
   defaultTiling: {x: 1, y: 1}
