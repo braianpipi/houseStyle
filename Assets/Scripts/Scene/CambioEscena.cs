@@ -52,9 +52,21 @@ using UnityEngine.SceneManagement; // Necesario para gestionar escenas
 
 public class CambioEscena : MonoBehaviour
 {
-    // Función pública que se llamará desde el botón
+
     public void CargarNuevaEscena()
     {
-        SceneManager.LoadScene(1); // Usa el índice que anotaste de la escena de la casa
+        SceneManager.LoadScene(1);
     }
+
+    public void CargarEscenaFinal()
+    {
+        SceneManager.LoadScene(2); 
+    }
+
+    public void QuitApplication()
+    {
+        Debug.Log("Cerrando la aplicación...");
+        Application.Quit();
+    }
+
 }
