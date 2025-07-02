@@ -20,4 +20,10 @@ MonoBehaviour:
   texturedElements:
   - mainTexture: {fileID: 2800000, guid: 17565feb4f576754785a647924f539d7, type: 3}
     normalMap: {fileID: 2800000, guid: 7681c240293256c4da86a062598bd872, type: 3}
+  - mainTexture: {fileID: 2800000, guid: 4c0ae5805f8fefd409d891f76de78e8d, type: 3}
+    normalMap: {fileID: 2800000, guid: aff1803eea607cc40acff51f6c309b9a, type: 3}
+  - mainTexture: {fileID: 2800000, guid: 2feaf4af3b736d747adf9b65cf5ead95, type: 3}
+    normalMap: {fileID: 2800000, guid: 509f445096b60f6418dda5388a5281ef, type: 3}
+  - mainTexture: {fileID: 2800000, guid: 6562ded31e93f3f4ab42beb53875da47, type: 3}
+    normalMap: {fileID: 2800000, guid: 8c3a4efebfb069c4d980a480a21b60a1, type: 3}
   defaultTiling: {x: 1, y: 0}

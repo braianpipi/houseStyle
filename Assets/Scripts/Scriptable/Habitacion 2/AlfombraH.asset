@@ -14,7 +14,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectName: Alfombra Habitacion
   customMaterialsToEdit: []
-  isTextured: 0
-  texturedMaterial: {fileID: 0}
-  texturedElements: []
+  isTextured: 1
+  texturedMaterial: {fileID: 2100000, guid: 0c4e200090b345f4c8b4cb9ec2ee2583, type: 2}
+  texturedElements:
+  - mainTexture: {fileID: 2800000, guid: 6562ded31e93f3f4ab42beb53875da47, type: 3}
+    normalMap: {fileID: 2800000, guid: d7362594216dea44b96c25b6a301686b, type: 3}
+  - mainTexture: {fileID: 2800000, guid: 6e11cd9ad37b79649bc9c7ba105a547f, type: 3}
+    normalMap: {fileID: 2800000, guid: 104f0c2c02962c14a856db6b8d47ddb6, type: 3}
+  - mainTexture: {fileID: 2800000, guid: a9f62f6e0d02f5942a326a35fcb64cd7, type: 3}
+    normalMap: {fileID: 2800000, guid: 4d2e1156cb70af6439dec121c4c582b9, type: 3}
+  - mainTexture: {fileID: 2800000, guid: 2feaf4af3b736d747adf9b65cf5ead95, type: 3}
+    normalMap: {fileID: 2800000, guid: 509f445096b60f6418dda5388a5281ef, type: 3}
   defaultTiling: {x: 1, y: 1}

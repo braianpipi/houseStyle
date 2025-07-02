@@ -14,7 +14,31 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectName: Paredes Habitacion
   customMaterialsToEdit: []
-  isTextured: 0
+  isTextured: 1
   texturedMaterial: {fileID: 0}
-  texturedElements: []
+  texturedElements:
+  - mainTexture: {fileID: 2800000, guid: 283f897e4925411ebbaa758b4cb13fc2, type: 3}
+    normalMap: {fileID: 2800000, guid: 7febcbb13e8218a4a83127bc9441a96a, type: 3}
+  - mainTexture: {fileID: 2800000, guid: b3a997a722ed4ec4d8212ad9f2381dbc, type: 3}
+    normalMap: {fileID: 2800000, guid: 1a76a70c3f1a8b948a284a90dce98c55, type: 3}
+  - mainTexture: {fileID: 2800000, guid: 01e75fac537f199469b905e8b40bbc1d, type: 3}
+    normalMap: {fileID: 2800000, guid: 4bbe556c24d552645859b8c157b5eaf0, type: 3}
+  - mainTexture: {fileID: 2800000, guid: 24e5857cbf19d1148b57b7ca45a0d918, type: 3}
+    normalMap: {fileID: 2800000, guid: 9f28cf79cb0917b4a92f6f2fb2d0dbd4, type: 3}
+  - mainTexture: {fileID: 2800000, guid: 6f4583d34b082d74da9acd6417c2db26, type: 3}
+    normalMap: {fileID: 2800000, guid: 4afeb900050dd6047be630c2588d972f, type: 3}
+  - mainTexture: {fileID: 2800000, guid: 910f252e96c90814c9c83d59087044c5, type: 3}
+    normalMap: {fileID: 2800000, guid: 0d9a1c0d22cfe9e42832f6bffe558635, type: 3}
+  - mainTexture: {fileID: 2800000, guid: 17565feb4f576754785a647924f539d7, type: 3}
+    normalMap: {fileID: 2800000, guid: 7681c240293256c4da86a062598bd872, type: 3}
+  - mainTexture: {fileID: 2800000, guid: f40ee89735e6477439831e6d0eedcf6a, type: 3}
+    normalMap: {fileID: 2800000, guid: 29f958e658a87a047a23c8328ee00f36, type: 3}
+  - mainTexture: {fileID: 2800000, guid: 86d4c4296988e8d4dbd18f9b1f13debf, type: 3}
+    normalMap: {fileID: 2800000, guid: 681832feb05843c4ca2f95674c238372, type: 3}
+  - mainTexture: {fileID: 2800000, guid: 2ed268586972caf438cfd984b0327299, type: 3}
+    normalMap: {fileID: 2800000, guid: 0b6493293d59beb4e914c5e19b59d3ff, type: 3}
+  - mainTexture: {fileID: 2800000, guid: 0f980e7ee18ebf945bd589868923e16a, type: 3}
+    normalMap: {fileID: 2800000, guid: 42a1d8c5e7aba7b4dad1b9a3cad39ec1, type: 3}
+  - mainTexture: {fileID: 2800000, guid: 0f980e7ee18ebf945bd589868923e16a, type: 3}
+    normalMap: {fileID: 2800000, guid: 42a1d8c5e7aba7b4dad1b9a3cad39ec1, type: 3}
   defaultTiling: {x: 1, y: 1}

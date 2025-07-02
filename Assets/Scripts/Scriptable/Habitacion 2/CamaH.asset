@@ -14,18 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   objectName: Cama
   customMaterialsToEdit:
-  - {fileID: 2100000, guid: 23766d5c7c9dc6a4c9841bf27a02dac1, type: 2}
+  - {fileID: 2100000, guid: e4fdbc2bd3766404e99488c6115482f3, type: 2}
   isTextured: 1
-  texturedMaterial: {fileID: 2100000, guid: 23766d5c7c9dc6a4c9841bf27a02dac1, type: 2}
+  texturedMaterial: {fileID: 2100000, guid: e4fdbc2bd3766404e99488c6115482f3, type: 2}
   texturedElements:
-  - mainTexture: {fileID: 2800000, guid: 8373e759e250fb8458b4f421391eeddd, type: 3}
-    normalMap: {fileID: 2800000, guid: 8c3a4efebfb069c4d980a480a21b60a1, type: 3}
   - mainTexture: {fileID: 2800000, guid: df5855ebeb934c84f8b073e36c879f78, type: 3}
     normalMap: {fileID: 2800000, guid: 7bcfc2f85d5f34d49aadf252b8ab40a1, type: 3}
   - mainTexture: {fileID: 2800000, guid: 52c85e3b301cb994a95b587b7245215e, type: 3}
     normalMap: {fileID: 2800000, guid: 01c7aae209b2a3744a61d1f0541fdccf, type: 3}
   - mainTexture: {fileID: 2800000, guid: 82f506f38dd51b14988d918088a34085, type: 3}
     normalMap: {fileID: 2800000, guid: 04f236486c3e60e48a26e689650ebb9f, type: 3}
-  - mainTexture: {fileID: 2800000, guid: a9f62f6e0d02f5942a326a35fcb64cd7, type: 3}
-    normalMap: {fileID: 2800000, guid: 4d2e1156cb70af6439dec121c4c582b9, type: 3}
   defaultTiling: {x: 1, y: 1}

@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: Techo
   m_EditorClassIdentifier: 
   objectName: Techo
-  customMaterialsToEdit: []
-  isTextured: 0
+  customMaterialsToEdit:
+  - {fileID: 2100000, guid: 5b9409788c198c74cb221c17d00aea33, type: 2}
+  isTextured: 1
   texturedMaterial: {fileID: 0}
   texturedElements: []
   defaultTiling: {x: 1, y: 1}

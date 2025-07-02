@@ -13,8 +13,17 @@ MonoBehaviour:
   m_Name: SofaH
   m_EditorClassIdentifier: 
   objectName: Sofa Habitacion
-  customMaterialsToEdit: []
-  isTextured: 0
-  texturedMaterial: {fileID: 0}
-  texturedElements: []
+  customMaterialsToEdit:
+  - {fileID: 2100000, guid: fd6b2cd5e7e307d4f943d752618a5edd, type: 2}
+  isTextured: 1
+  texturedMaterial: {fileID: 2100000, guid: e4fdbc2bd3766404e99488c6115482f3, type: 2}
+  texturedElements:
+  - mainTexture: {fileID: 2800000, guid: b9378395c3f2bf94ea0c2c6a806d59c6, type: 3}
+    normalMap: {fileID: 2800000, guid: eaab067d8eb3b8d4bb350edabf04373a, type: 3}
+  - mainTexture: {fileID: 2800000, guid: df5855ebeb934c84f8b073e36c879f78, type: 3}
+    normalMap: {fileID: 2800000, guid: 7bcfc2f85d5f34d49aadf252b8ab40a1, type: 3}
+  - mainTexture: {fileID: 2800000, guid: 52c85e3b301cb994a95b587b7245215e, type: 3}
+    normalMap: {fileID: 2800000, guid: 01c7aae209b2a3744a61d1f0541fdccf, type: 3}
+  - mainTexture: {fileID: 2800000, guid: 82f506f38dd51b14988d918088a34085, type: 3}
+    normalMap: {fileID: 2800000, guid: 04f236486c3e60e48a26e689650ebb9f, type: 3}
   defaultTiling: {x: 1, y: 1}
