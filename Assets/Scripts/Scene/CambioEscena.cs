@@ -57,7 +57,10 @@ public class CambioEscena : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
-
+    public void CargarInicio()
+    {
+        SceneManager.LoadScene(0);
+    }
     public void CargarEscenaFinal()
     {
         SceneManager.LoadScene(2); 
@@ -68,5 +71,5 @@ public class CambioEscena : MonoBehaviour
         Debug.Log("Cerrando la aplicación...");
         Application.Quit();
     }
-
+ 
 }

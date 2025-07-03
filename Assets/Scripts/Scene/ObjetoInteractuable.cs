@@ -4,14 +4,20 @@ using System.Collections.Generic;
 public enum TipoObjeto
 {
     Piso,
+    PisoH,
     Pared,
+    ParedH,
     Muebles,
+    MueblesH,
     Alfombra,
+    AlfombraH,
     Vidrios,
     Sillon,
+    SillonH,
     Puerta,
     Maceta,
     Techo,
+    TechoH,
     Otro
 }
 
